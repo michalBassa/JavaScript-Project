@@ -1,0 +1,95 @@
+@media(min-width:500px) {
+
+    /* גדול*/
+    img {
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+        border: 2px solid black;
+        margin: 5px;
+    }
+    #board{
+         width: 96%;
+         margin-left: 4%;
+    }
+    h1{font-size: 100px;}
+    body{
+        font-size: 30px;
+
+    }
+}
+
+
+@media (max-width:800px) {
+
+    /* בינוני */
+    img {
+        height: 143px;
+        width:143px;
+        border-radius: 20px;
+        border: 1px solid black;
+        margin: 0.1px;
+    }
+    body{
+        background: cover;
+        height: 1024px;
+    }
+   
+
+}
+@media (max-width:400px) {
+    /* קטן */
+body{
+    height: 2000px;
+
+}
+ h1{font-size: 60px;}
+
+}
+
+#board {
+    display: flex-warp;
+    text-align: center;
+}
+
+#screen {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    text-align: center;
+    background-image: url(picture/XAAB7604.JPG);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#bodyGame {
+    text-align: center;
+}
+
+ input[type="text"]{
+    border-radius: 10%;
+    background-color: rgb(240, 191, 214);
+    width: 100px;
+    height: 50px;
+    color: black;
+  }
+  input[type="button"]{
+    border-radius: 50%;
+    background-color: rgb(234, 187, 209);
+    width: 100px;
+    height: 50px;
+    color: black;
+  }
+  #idToSeeScore{
+    height: 40px;
+    width: 300px;
+  }
+  #startPlay{
+    height: 100px;
+    width: 100px;
+  }
+  
